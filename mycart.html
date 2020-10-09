@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <title>BookStore</title>
+</head>
+<body style="background-color:#625261;">
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-dark" style="background-color:#625261;">
+            <a class="navbar-brand" href="#"><h2>BoOk StOrE</h2></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+              <span class="navbar-toggler-icon"></span>
+            </button>
+          
+            <div class="collapse navbar-collapse " id="navbarSupportedContent">
+              <ul class="navbar-nav ml-auto">
+                <li class="nav-item ">
+                  <a class="nav-link" href="index.html">Home </a>
+                </li>
+                <li class="nav-item active">
+                  <a class="nav-link" href="mycart.html">My Ca<i class="fa fa-shopping-cart" aria-hidden="true"></i>t </a>
+                </li>
+                <li class="nav-item dropdown">
+                  <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                    Categories
+                  </a>
+                  <div class="dropdown-menu" aria-labelledby="navbarDropdown">
+                    <a class="dropdown-item" href="#">Fantasy</a>
+                    <a class="dropdown-item" href="#">Inspiration</a>
+                    <a class="dropdown-item" href="#">Sci-Fi</a>
+                    </div>
+                </li>
+                <li class="nav-item dropdown">
+                    <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown1" role="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                      Author Name
+                    </a>
+                    <div class="dropdown-menu" aria-labelledby="navbarDropdown1">
+                      <a class="dropdown-item" href="#">Jk Rowling</a>
+                      <a class="dropdown-item" href="#">Abhishek SIngh</a>
+                      <a class="dropdown-item" href="#">MS DHONI</a>
+                      </div>
+                  </li>
+              </ul>
+              <form class="form-inline my-2 my-lg-0 ml-2">
+                <input class="form-control mr-sm-2" type="search" placeholder="Search" aria-label="Search">
+                <button class="btn btn-success my-2 my-sm-0" type="submit">Search</button>
+              </form>
+            </div>
+          </nav>
+    </header>
+    <div style="height:50px;"></div>
+<section>
+<div class="container">
+    <div class="breadcrumb text-light" style="background-color:#625261 ;">
+        <h2 class="breadcrumb-items">
+            Your Products:
+        </h2>
+    </div>
+    <div class="row">
+        <div class="col-sm-10">
+            <table class="table table-responsive-md table-hover text-light border">
+                <thead>
+                    <tr>
+                        <th>Book Image</th>
+                        <th>Book Name</th>
+                        <th>Price</th>
+                        <th>Remove from list</th>
+                    </tr>
+                </thead>
+                <tbody>
+                    <tr>
+                        <td><img src="images/book1.jpg" alt="book image" style="height: 50px;width:100px;"></td>
+                        <td>Stand</td>
+                        <td>200Rs</td>
+                        <td><a class="btn btn-sm btn-danger text-light" href="#">Remove</a></td>
+                    </tr>
+                    <tr>
+                        <td><img src="images/book1.jpg" alt="book image" style="height: 50px;width:100px;"></td>
+                        <td>Stand</td>
+                        <td>200Rs</td>
+                        <td><a class="btn btn-sm btn-danger text-light" href="#">Remove</a></td>
+                    </tr>           
+                </tbody>
+            </table>
+        </div>
+    </div>
+    <div style="height:20px;"></div>
+    <h4 class="text-light font-weight-bold">Total Price: 400Rs</h4>
+   </div>
+
+</section>
+<div style="height:50px;"></div>
+<div style="height:90px;"></div>
+    <footer>
+<div class="jumbotron-fluid border">
+    <div class="container mt-4 text-center">
+        <h2 class="text-light">BoOk StOrE</h2>
+        <p class="text-light">Trusted by many users.</p>        
+</div>
+   <p class="text-light text-center">@copywright BoOk StOrE</p>
+</div>
+    </footer>
+        
+    </body>
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
+<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+</html>
